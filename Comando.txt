@@ -1,0 +1,32 @@
+GITHUB
+Git es una herramienta para ir almacenando instantáneamente nuestros archivos cuando lo vamos desarrollando.
+Crear repositorio
+Git init: comando para empezar nuestro proyecto a la hora de ejecutar el comando de git init crea 2 areas , una area para ensayo y la otra para un repositorio local.
+Git add: es seleccionar en nuestro directorio un archivo para que git lo envie al area de ensayo. Practicamente es añadir en nuestra area de ensayo un archivo de nuestro directorio.
+Git commit: es el comando para que git pueda crear nuestro respaldo del archivo en el area de ensayo.
+Git add texto.txt: Con este comando agrego mi archivo al area de ensayo 
+Git commit –m “primer”: comando correcto para uso de commit y aquí creo el respaldo .
+Git status –s: Es para ver cuantos archivos o directorios tenemos en nuestro repositorio
+Git log –oneline: este comando es para ver cuantos comit o respaldo  hemos realizado
+ 
+Comando para retornar a un respaldo o captura en git
+Git reset –hard y se coloca el código de respaldo.
+ 
+Comando para hacer un commit y un add
+Git commit –am “primera  lineas”
+ 
+Commando para abrir editor vim esto es para editar los comit
+Git commit  --amend
+ 
+
+Subir repositorio git hub
+Es copiar el enlace desde git hub
+Git remote add origin  https:
+ 
+Git pull es un commando que nos sirve traer lo que editamos en github a nuestro directorien en la pac.
+ 
+Comando de git push es para cuando estamos en nuestra pc editando y lo queremos subir a github
+ 
+Comando git tag es para crear una versión de nuestra carpeta o programa que llevamos y esta la empaqueta como una versión finalizada.
+ 
+Git clone es para clonar un archivo de git hub a nuestra pc solo se copia la url que nos da github
